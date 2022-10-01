@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+*
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 char charType;
 int intType;
-long int intType;
-long long int intType;
+long int longintType;
+long long int longlongintType;
 float floatType;
 
 // sizeof evaluates the size of a variable
