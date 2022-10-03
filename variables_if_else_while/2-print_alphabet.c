@@ -15,11 +15,9 @@ int main(void)
  
     printf("lowercase characters:\n");
     for(i='a'; i<='z'; i++)
- putchar(i);
-putchar ('\n');
+ putchar('i\n');
     printf("uppercase characters:\n");
     for(i='A'; i<='Z'; i++)
-    putchar(i);
-putchar ('\n'); 
+    putchar('i\n');
     return (0);
 }
