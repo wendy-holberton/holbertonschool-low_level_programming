@@ -20,11 +20,11 @@ printf("Last digit of %d is ", n);
 
 if (last_digit_of_n > 5)
 {
-printf("%d is greater than 5\n", last_digit_of_n);
+printf("%d and is greater than 5\n", last_digit_of_n);
 }
 else if (last_digit_of_n == 0)
 {
-printf("%d is 0\n", last_digit_of_n);
+printf("%d and is 0\n", last_digit_of_n);
 }
 else if (last_digit_of_n < 6)
 {
