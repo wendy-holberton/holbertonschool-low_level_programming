@@ -8,6 +8,6 @@ printf("%d  is positive", n);
 else if (n < 0)
 printf("-%d  is negative", n);
 else if (n == 0)
-printf("0 is zero", n);
+printf("0 is zero");
 return (0);
 }
