@@ -8,15 +8,6 @@
 */
 int main(void)
 {
-int n;
-int i = 0;
-int r;
-while (n != 0)
-{
-r = n % 10;
-arr[i] = n;
-i++;
-n = n / 10;
-}
+printf("0123456789\n");
 return (0);
 }
