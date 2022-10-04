@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 /**
@@ -8,16 +8,16 @@
 */
 int main(void)
 {
-	int i = '0',
+	int i = '0';
 	int n = 'a';
 
-	while (i <= '9')
-	}
+	if (i <= '9')
+	{
 		putchar(i);
 		i++;
 	}
-	while (n <= 'f')
-	}		
+	else if (n <= 'f')
+	{		
 		putchar(n);
 		n++;
 	}
