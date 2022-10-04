@@ -1,19 +1,22 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
+* print_alphabet_x10 - Entry point
 *
 * Return: Always 0 (Success)
 */
-void print_alphabet() {
-	char i;
+void print_alphabet_x10(void)
+{
+	int n = 0;
 
-	i = 'a';
-	while (i <= 'z')
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(i);
-		i++;
-	}
+		char i = 'a';
+
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			putchar(i);
+		}
 	putchar('\n');
-	return;
+	}
 }
