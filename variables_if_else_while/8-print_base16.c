@@ -8,18 +8,17 @@
 */
 int main(void)
 {
-	int i = '0';
-	int n = 'a';
+	int i;
+	int n;
 
-for (i = '0', i++, n = 'a', n++)
-	if (i <= '9')
-	{
-		putchar(i);
-	}
-	else if (n <= 'f')
-	{		
-		putchar(n);
-	}
-	putchar('\n');
-	return (0);
+for (i = 0; i <= 9; i++)
+{
+	putchar(i);
+}
+for (n = 'a'; n <= 'f'; n++)
+{
+	putchar(n);
+}
+putchar('\n');
+return (0);
 }
