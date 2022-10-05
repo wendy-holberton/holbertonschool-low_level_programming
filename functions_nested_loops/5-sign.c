@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * _isalpha - Entry point
-*@n: The number to be checked
+* @n: The number to be checked
 *
 * Return: Always 0 (Success)
 */
