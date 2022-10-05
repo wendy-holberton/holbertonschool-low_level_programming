@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* _isalpha - Entry point
-* @n: some discription
+* print_sign - Entry point
+* @n: The number to be collected
 *
 * Return: Always 0 (Success)
 */
@@ -14,7 +14,7 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		_putchar(00);
+		_putchar('0');
 		return (0);
 	}
 	else
