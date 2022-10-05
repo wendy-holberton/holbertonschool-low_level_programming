@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 /**
 * _islower - Entry point
 *
@@ -8,14 +7,12 @@
 */
 int _islower(int c)
 {
-	if (islower(c) > 0)
+	if(c >=97 && c <= 122)
 	{
-		putchar('c');
+	return (1);
 	}
 	else
 	{
-		putchar('C');
+	return(0);
 	}
-	putchar('\n');
-	return (0);
 }
