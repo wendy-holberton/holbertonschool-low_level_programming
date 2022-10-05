@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * _isalpha - Entry point
-* @c: The number to be checkeud
+* @c: The number to be checked
 *
 * Return: Always 0 (Success)
 */
@@ -12,9 +12,9 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else if (c >= 41 && c <= 90)
+	else if (c >= 67 && c <= 90)
 	{
-		return (0);
+		return (1);
 	}
 	putchar(c);
 	return (0);
