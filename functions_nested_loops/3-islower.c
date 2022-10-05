@@ -2,6 +2,7 @@
 #include "main.h"
 /**
 * _islower - Entry point
+*@c: The number to be checked
 *
 * Return: Always 0 (Success)
 */
