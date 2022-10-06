@@ -4,6 +4,6 @@ OBJ = main.o school.o
 Name = school
 
 all: %.o
-	$(CC) $(OBJ) -o $(Name)		
+	$(CC) $^ -o $(Name)		
 %.o: %.c
 	$(CC) -c -o $@ $<
