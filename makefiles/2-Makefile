@@ -5,8 +5,5 @@ Name = school
 
 all: main.o school.o
 	$(CC) $(OBJ) -o $(Name)		
-main.o: main.c
-	$(CC) -c -o main.o main.c
-
-	
-
+%.o: %.c
+	$(CC) -c -o $@ $<
