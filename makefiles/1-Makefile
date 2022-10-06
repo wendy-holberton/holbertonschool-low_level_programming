@@ -1,6 +1,9 @@
 CC = gcc
+SRC = main.c school.c
+
 CFLAGS = -g -Wall
 all: $(school)
+	gcc main.c shool.c -o school
 $(school) : $(school).SRC
 	$(CC) $(CFLAGS) -o $(school) $(school).SRC
 clean: 
