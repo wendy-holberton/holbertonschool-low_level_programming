@@ -1,1 +1,9 @@
-:q
+all: school
+school: main.CC school.CC
+	gcc main.CC school.CC -o school
+main.CC: main.SRC
+	gcc -c main.SRC
+school.CC: school.SRC
+	gcc -c school.SRC
+clean: 
+	rm *.CC school
