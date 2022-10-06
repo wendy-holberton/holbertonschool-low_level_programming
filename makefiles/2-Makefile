@@ -5,7 +5,7 @@ Name = school
 
 targets = one two
 
-all: %.o
+all: $(SRC)
 	$(CC) $(OBJ) -o $(Name)		
 # main.o: main.c
 	# $(CC) -c -o main.o main.c
