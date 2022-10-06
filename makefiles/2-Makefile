@@ -3,7 +3,7 @@ SRC = main.c school.c
 OBJ = main.o school.o
 Name = school
 
-all: %.o
+all: $(OBJ)
 	$(CC) $^ -o $(Name)		
 %.o: %.c
 	$(CC) -c -o $@ $<
