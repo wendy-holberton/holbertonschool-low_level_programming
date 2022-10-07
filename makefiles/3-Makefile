@@ -7,9 +7,9 @@ all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
 	$(RM) -f *~ $(NAME)	
-oclean::
+oclean:
 	$(RM) -f $(OBJ)
 fclean: 
 	$(RM) -f *~ $(NAME) $(OBJ) 
-re: $(OBJ)
+re: 
 	$(CC) $(OBJ) -o $(NAME)
