@@ -7,9 +7,9 @@ all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
 	rm -f *~$(NAME)	
-$(RM):
+oclean:
 	rm -f $(SRC:.c=.o)
-$(RM): 
+fclean: 
 	rm -f *~$(NAME) $(OBJ)
 re: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
