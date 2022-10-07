@@ -8,8 +8,8 @@ all: $(OBJ)
 clean:
 	$(RM) -f *~$(NAME)	
 oclean::
-	$(RM) -f $(SRC:.c=.o)
+	$(RM) -f $(OBJ)
 fclean: 
-	$(RM) -f $(NAME) $(OBJ) *.o
+	$(RM) -f *~$(NAME) $(OBJ) 
 re: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
