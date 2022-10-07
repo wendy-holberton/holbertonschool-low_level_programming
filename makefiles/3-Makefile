@@ -5,8 +5,11 @@ NAME = school
 RM = clean oclean fclean
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-clean:
+$(RM):
 	rm -f *~$(NAME)	
+$(RM):
 	rm -f $(SRC:.c=.o)
+$(RM): 
+	rm -f *~$(NAME) $(OBJ)
 re: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
