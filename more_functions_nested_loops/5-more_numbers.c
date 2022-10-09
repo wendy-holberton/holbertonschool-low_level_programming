@@ -5,17 +5,26 @@
 */
 void more_numbers(void)
 {
-	int a;
+	int a = 0;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		int b;
+		int b = 0;
 
-		for (b = 48; b <= 57; b++)
+		for (b = 0; b <= 14; b++)
 		{
-		_putchar(b);
+			int c;
+			if (b <= 9)
+			{
+				c = b + 48;
+			}
+			else
+			{
+			_putchar('1');
+				c = b + 48 - 10;
+			}
+			_putchar(c);
 		}
-	_putchar('X');
 	_putchar('\n');
 	}
 }
