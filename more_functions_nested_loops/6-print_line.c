@@ -7,19 +7,11 @@
 */
 void print_line(int n)
 {
-	int n;
-
-	char a;
-	
-	a = 95 * n;
+	char underscore = 95;
 	while (n > 0)
 	{	
-	_putchar(95 * n);
-	}
-	while (n <= 0) 	
-	{	
-	_putchar('\');
-	_putchar(n);
+	_putchar(underscore);
+	n--;
 	}
 	_putchar('\n');
 }
