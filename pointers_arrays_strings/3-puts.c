@@ -2,7 +2,7 @@
 
 /**
  * _puts - puts the character
- * @str - writes a string to stdout up to but not including null character.
+ * @str: - writes a string to stdout up to but not including null character.
  * Return: nothing.
  */
 void _puts(char *str)
