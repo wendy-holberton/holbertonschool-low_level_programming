@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_array - puts the character
+ * @a: - poniter named a.
+ * @n: - number to be collected.
+ * Return: nothing.
+ */
+void print_array(int *a, int n)
+{
+	int loop;
+
+	for (loop = 0; loop < n; loop = loop + 1)
+	printf("%d,", a[loop]);
+	printf("\n");
+}
