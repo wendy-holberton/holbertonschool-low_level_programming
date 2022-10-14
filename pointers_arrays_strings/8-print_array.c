@@ -10,7 +10,11 @@
 void print_array(int *a, int n)
 {
 	int loop;
-
+	
+	if (n <= 0)
+	{
+	return;
+	}
 	for (loop = 0; loop < (n - 1); loop = loop + 1)
 	printf("%d, ", a[loop]);
 	printf("%d", a[loop]);
