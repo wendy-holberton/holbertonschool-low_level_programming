@@ -3,7 +3,6 @@
 
 /**
 * string_toupper - Entry point
-* @n: The number of times
 * @str: The pointer
 * Return: Always 0 (Success)
 */
