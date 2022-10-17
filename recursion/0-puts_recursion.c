@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * _puts_recursion - check the code
  * @s: s is the pointer
  * Return: Nothing.
  */
