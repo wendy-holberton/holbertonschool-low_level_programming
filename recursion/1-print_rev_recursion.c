@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev__recursion - reverse recursion
+ * _print_rev_recursion - reverse recursion
  * @s: s is the pointer
  * Return: Nothing.
  */
