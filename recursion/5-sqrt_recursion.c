@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - square root recursion
+ * _sqrt_recur - function name
  * @n: n is the interger
  * @current_number: is the interger
  * Return: always 0
