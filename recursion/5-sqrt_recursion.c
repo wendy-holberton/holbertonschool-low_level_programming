@@ -28,3 +28,4 @@ int _sqrt_recur(int current_number, int n)
 		return (-1);
 	}
 	return (_sqrt_recur(current_number + 1, n));
+}
