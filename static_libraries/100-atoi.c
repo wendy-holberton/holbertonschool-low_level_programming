@@ -3,10 +3,10 @@
 #include <string.h>
 /**
  * _atoi - changes the string argument str to an integer
+ * @string2: is a string
+ * @val: is a value 
  */
 int _atoi(char *s)
 {
-printf("String value = %s\n", string2);
-printf("Integer value = %d\n", val);
 return (0);
 }
