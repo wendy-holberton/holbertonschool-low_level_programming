@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *main - name
- *@argc: count of the arguments
- *@argv[]: an array of pointers to the string
- *i:
- *return: 0
+ * main - name
+ * @argc: count of the arguments
+ * @argv: an array of pointers to the string
+ * i:
+ * Return: Always 0 (Success)
  */
 
 
