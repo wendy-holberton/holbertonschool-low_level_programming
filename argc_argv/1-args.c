@@ -6,7 +6,7 @@
  *@argc: the number of the arguments
  *@argv: an array of pointers to the string
  *i:
- *
+ *Return: Always 0 (Success)
  */
 
 
