@@ -2,16 +2,24 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - name
+ *main - name
  *@argc: count of the arguments
  *@argv[]: an array of pointers to the string
+ *i:
  *return: 0
  */
 
 
 int main(int argc, char *argv[])
 {
-	printf("mynameis\n");
-	(void) argv[argc - 1];
-	return (0);
+	int i;
+
+	i = 0;
+	while (i < argc)
+	{
+		printf("%s\n", argv[i]);
+		i = i + 1;
+	}
+return (0);
 }
+
