@@ -15,6 +15,7 @@ char *_strdup(char *str)
 	int i;
 	int len;
 
+	i = 0;
 	if (str == NULL)
 	{
 		return (NULL);
@@ -30,7 +31,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	i = 0;
 	while (i < len)
 	{
 		*(ptr + i) = *(str + i);
