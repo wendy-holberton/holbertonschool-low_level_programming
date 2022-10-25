@@ -17,13 +17,13 @@ char *str_concat(char *s1, char *s2)
 	int len2;
 
 	i = 0;
-	if (!s1)
+	if (s1 == NULL)
 	{
-		return (NULL);
+		s1 = "";
 	}
-	if (!s2)
+	if (s2 == NULL)
 	{
-		return (NULL);
+		s2 = "";
 	}
 
 	len1 = 0;
