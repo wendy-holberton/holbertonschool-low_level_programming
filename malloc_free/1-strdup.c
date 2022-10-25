@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	char *ptr;
 	int i;
 	int len;
-	
+
 	i = 0;
 	if (!str)
 	{
@@ -32,7 +32,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for(i = 0; i <= len; ++i)
+	for (i = 0; i <= len; ++i)
 	{
 		*(ptr + i) = *(str + i);
 	}
