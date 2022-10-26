@@ -16,7 +16,6 @@ void *malloc_checked(unsigned int b)
 	i = 0;
 	while (i < b)
 	{
-		ptr = malloc(b);
 		i = i + 1;
 	}
 	ptr = malloc(b);
