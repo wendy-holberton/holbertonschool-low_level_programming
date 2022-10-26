@@ -6,7 +6,7 @@
 /**
  * string_nconcat - concatenates two strings
  * @s1: the character
- * @s2:
+ * @s2: the character
  * @n: is an unsigned integer i
  * Return: Always 0
  */
@@ -47,7 +47,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			ptr[i] = s1[i];
 		}
-		for (i = 0; i <= n; i = i + 1)
+		for (i = 0; i < n; i = i + 1)
 		{
 			ptr[i + len1] = s2[i];
 		}
