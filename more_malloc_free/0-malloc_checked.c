@@ -5,7 +5,7 @@
 
 /**
  * malloc_checked - check the code
- * @b:
+ * @b: is an unsigned integer
  * Return: Nothing.
  */
 void *malloc_checked(unsigned int b)
