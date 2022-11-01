@@ -2,7 +2,6 @@
 #include "dog.h"
 
 /**
- * print_dog - prints a struct dog
  * @dog: dog is the structure tag
  * @d: d is point to variables name, age, and owner
  * Return: Nothing.
