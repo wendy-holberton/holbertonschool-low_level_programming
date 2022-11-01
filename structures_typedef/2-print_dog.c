@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * struct dog - short description
  * print_dog - is a function name
+ * struct dog - short description
  * @d: d is point to variables name, age, and owner
  * Return: Nothing.
  */
