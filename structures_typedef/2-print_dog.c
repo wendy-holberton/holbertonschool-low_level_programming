@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * @dog: dog is the structure tag
+ * print_dog: 'is a function name'
  * @d: d is point to variables name, age, and owner
  * Return: Nothing.
  */
