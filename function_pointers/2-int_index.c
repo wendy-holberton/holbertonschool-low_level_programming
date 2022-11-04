@@ -22,17 +22,13 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-	if (size > 0)
-	{
-		return (1);
-	}
 	index = 0;
 	while (index < size)
 	{
 		cmpResult = cmp(array[index]);
 		if (cmpResult != 0)
 		{
-			return (index);	
+			return (index);
 		}
 		index = index + 1;
 	}
