@@ -23,15 +23,18 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		i = va_arg(arg, unsigned int);
 		if (count != n - 1)
 		{
-			printf("%d%s", i, separator);
+			if (separator == NULL)
+			{
+				count = count + 1;
+			}
+			else
+			{		
+				printf("%d%s", i, separator);
+			}
 		}
 		else
 		{
 			printf("%d\n", i);
-		}
-		if (separator == NULL)
-		{
-			return;
 		}
 		count = count + 1;
 	}
