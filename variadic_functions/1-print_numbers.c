@@ -1,18 +1,17 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include <stddef.h>
-#include <string.h>
 #include "variadic_functions.h"
 
 /**
  * print_numbers - a function to print numbers with '\n'
- * @separatar: the string to be printed between numbers
+ * separatar: the pointer to char
  * @n: number of integers
- * Return: Nothing.
+ *
+ * Return: Nothing (Success)
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int count = strlen(separator);
+	unsigned int count;
 	unsigned int i;
 
 	va_list arg;
