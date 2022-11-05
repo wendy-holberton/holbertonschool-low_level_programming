@@ -20,12 +20,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	count = 0;
 	while (count < n)
 	{
-		if (separator[count] != '\0')
-		{
-			i = va_arg(arg, unsigned int);
-			printf("%d\n", i);
-		}
-		else if (separator == NULL)
+		i = va_arg(arg, unsigned int);
+		printf("%d\n", i);
+		if (separator == NULL)
 		{
 			return;
 		}
