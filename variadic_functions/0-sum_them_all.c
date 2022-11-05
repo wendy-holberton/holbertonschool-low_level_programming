@@ -21,7 +21,7 @@ int sum_them_all(const unsigned int n, ...)
 	count = 0;
 	while (count < n)
 	{
-		sum += va_arg(ptr, unsigned int);
+		sum = sum + va_arg(ptr, unsigned int);
 		count = count + 1;
 	}
 	va_end(ptr);
