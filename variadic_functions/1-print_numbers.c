@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - a function to print numbers with '\n'
- * separatar: the pointer to char
+ * separatar: 'the pointer to char'
  * @n: number of integers
  *
  * Return: Nothing (Success)
@@ -20,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	count = 0;
 	while (count < n)
 	{
-		if (separator[count] >= 0)
+		if (separator[count] != '\0')
 		{
 			i = va_arg(arg, unsigned int);
 			printf("%d\n", i);
