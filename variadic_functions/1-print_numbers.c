@@ -3,8 +3,8 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - a function to print numbers with '\n'
- * separatar: 'the pointer to char'
+ * print_numbers - a function to print numbers with new line at the end
+ * separatar: the pointer to char
  * @n: number of integers
  *
  * Return: Nothing (Success)
@@ -28,7 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 				count = count + 1;
 			}
 			else
-			{		
+			{
 				printf("%d%s", i, separator);
 			}
 		}
