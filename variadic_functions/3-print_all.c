@@ -37,10 +37,7 @@ void print_all(const char * const format, ...)
 				{
 					printf("(nil)");
 				}
-				else if(1)
-				{
-					printf("%s", str);
-				}
+				printf("%s", str);
 				break;
 			case 'f':
 				flo = (float) va_arg(arg, double);
