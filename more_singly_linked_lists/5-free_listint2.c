@@ -9,7 +9,7 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *real_head;
-	listint_t *ptr;	
+	listint_t *ptr;
 
 	real_head = *head;
 
@@ -20,4 +20,5 @@ void free_listint2(listint_t **head)
 		real_head = ptr;
 	}
 	head = NULL;
+	free(head);
 }
