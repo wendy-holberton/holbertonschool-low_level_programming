@@ -7,22 +7,24 @@
  * create_file - create a file
  * @filename: a pointer to const char *
  * @text_content: a pointer to char *
- * Return: 
+ * Return: 1 or -1
  */
 int create_file(const char *filename, char *text_content)
 {
-	/** Steps for processing a file
-		1. Declare a file pointer variable
-		2. Open a file using fopen()
-		3. Process the file using the suitable function
-		4. Close the file useing fclose() function */
+/*
+* Steps for processing a file
+1. Declare a file pointer variable
+2. Open a file using fopen()
+3. Process the file using the suitable function
+4. Close the file useing fclose() function
+*/
 
 	int fd, wr;
 
 	if (filename == NULL)
 	{
 		return (-1);
-	}	
+	}
 
 	if (text_content == NULL)
 	{
@@ -38,12 +40,12 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	wr= write(fd, text_content, strlen(text_content));
+	wr = write(fd, text_content, strlen(text_content));
 	if (wr == -1)
 	{
-		close (fd);
+		close(fd);
 		return (1);
-	}	
-	close (fd);
+	}
+	close(fd);
 	return (1);
 }
