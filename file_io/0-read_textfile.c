@@ -57,17 +57,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	return (wr);
 }
-
-	filename = fopen("readme.txt", "r");
-	if (filename == NULL)
-	{
-		return (0);
-	}
-	while ((letter = fgetc(filename)) != EOF)
-	{
-		putchar(letter);
-	}
-	
-	fclose(filename);
-	return (0);
-}
