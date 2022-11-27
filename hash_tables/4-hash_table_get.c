@@ -13,7 +13,11 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	int index;
 	hash_node_t *linked_list;
-
+	
+	if (ht == NULL)
+	{
+		return (NULL);
+	}
 /* find the right spot in the hash table (element in the array) */
 	index = key_index((const unsigned char *)key, ht->size);
 	linked_list = ht->array[index];
