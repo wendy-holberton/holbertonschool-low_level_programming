@@ -41,7 +41,10 @@ int main(int ac, char **av)
 		rd = read(fd, buff, 4);
 	}
 	close(fd);
+	return (0);
+
 	close(fd2);
+	return (0)
 	
 	
 
